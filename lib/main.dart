@@ -1,3 +1,4 @@
+import 'package:b2b_ordering_system/pages/dashboard/dashboard_layout.dart';
 import 'package:b2b_ordering_system/pages/landing_page.dart';
 import 'package:flutter/material.dart';
 
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
       getPages: [
         GetPage(name: '/', page: () => const LandingPage()),
         GetPage(name: '/login', page: () => const LoginPage()),
+        GetPage(name: '/dashboard_layout', page: () => const MyDashBoard()),
       ],
     );
   }

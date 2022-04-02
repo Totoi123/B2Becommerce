@@ -78,7 +78,9 @@ class LoginPage extends StatelessWidget {
                       // ),
                     ),
                     child: MaterialButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Get.toNamed('/dashboard_layout');
+                      },
                       minWidth: double.infinity,
                       height: 60,
                       color: Colors.teal,
